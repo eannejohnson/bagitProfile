@@ -24,7 +24,7 @@
     "*"
   ],
   "BagIt-Profile-Info": {
-    "BagIt-Profile-Identifier": "",
+    "BagIt-Profile-Identifier": "https://github.com/eannejohnson/bagitProfile/blob/main/bagit-profile-external",
     "BagIt-Profile-Version": "1.3.0",
     "Contact-Email": "elizabethanne.johnso@ucalgary.ca",
     "Contact-Name": "Elizabeth-Anne Johnson",
