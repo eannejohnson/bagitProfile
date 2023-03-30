@@ -1,0 +1,86 @@
+{
+  "Accept-BagIt-Version": [
+    "0.97",
+    "1.0"
+  ],
+  "Accept-Serialization": [
+    "application/zip"
+  ],
+  "Allow-Fetch.txt": true,
+  "Serialization": "optional",
+  "Manifests-Allowed": [
+    "md5"
+  ],
+  "Tag-Manifests-Allowed": [
+    "md5"
+  ],
+  "Manifests-Required": [
+    "md5"
+  ],
+  "Tag-Manifests-Required": [
+    "md5"
+  ],
+  "Tag-Files-Allowed": [
+    "*"
+  ],
+  "BagIt-Profile-Info": {
+    "BagIt-Profile-Identifier": "",
+    "BagIt-Profile-Version": "1.3.0",
+    "Contact-Email": "elizabethanne.johnso@ucalgary.ca",
+    "Contact-Name": "Elizabeth-Anne Johnson",
+    "External-Description": "BagIt profile for transferring material to the University of Calgary Archives & Special Collections",
+    "Source-Organization": "University of Calgary Archives & Special Collections",
+    "Version": "1.0"
+  },
+  "Bag-Info": {
+    "Bag-Count": {
+      "required": false
+    },
+    "Bag-Group-Identifier": {
+      "required": false
+    },
+    "Bag-Size": {
+      "required": false
+    },
+    "Bagging-Date": {
+      "required": true
+    },
+    "Bagging-Software": {
+      "required": false
+    },
+    "Donor-Email": {
+      "required": false
+    },
+    "Donor-Name": {
+      "required": false
+    },
+    "Donor-Phone": {
+      "required": false
+    },
+    "External-Description": {
+      "required": false
+    },
+    "External-Identifier": {
+      "required": false
+    },
+    "Internal-Sender-Description": {
+      "required": false
+    },
+    "Internal-Sender-Identifier": {
+      "required": false
+    },
+    "Source-Organization-Address": {
+      "required": false
+    },
+    "Payload-Oxum": {
+      "required": true
+    },
+    "Source-Organization": {
+      "required": true
+    },
+    "Payload-Identifier": {
+      "required": false
+    }
+  },
+  "Tag-Files-Required": []
+}
