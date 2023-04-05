@@ -4,10 +4,11 @@
     "1.0"
   ],
   "Accept-Serialization": [
+    "application/tar",
     "application/zip"
   ],
-  "Allow-Fetch.txt": true,
-  "Serialization": "optional",
+  "Allow-Fetch.txt": false,
+  "Serialization": "forbidden",
   "Manifests-Allowed": [
     "md5"
   ],
@@ -24,7 +25,7 @@
     "*"
   ],
   "BagIt-Profile-Info": {
-    "BagIt-Profile-Identifier": "https://github.com/eannejohnson/bagitProfile/blob/main/bagit-profile-external",
+    "BagIt-Profile-Identifier": "https://github.com/eannejohnson/bagitProfile/blob/f724f74fb57acfb6de01cadc4706cda6d08ab2d8/bagit-profile-external.json",
     "BagIt-Profile-Version": "1.3.0",
     "Contact-Email": "elizabethanne.johnso@ucalgary.ca",
     "Contact-Name": "Elizabeth-Anne Johnson",
@@ -33,12 +34,6 @@
     "Version": "1.0"
   },
   "Bag-Info": {
-    "Bag-Count": {
-      "required": false
-    },
-    "Bag-Group-Identifier": {
-      "required": false
-    },
     "Bag-Size": {
       "required": false
     },
@@ -48,28 +43,19 @@
     "Bagging-Software": {
       "required": false
     },
-    "Donor-Email": {
+    "Contact-Email": {
       "required": false
     },
-    "Donor-Name": {
+    "Contact-Name": {
       "required": false
     },
-    "Donor-Phone": {
+    "Contact-Phone": {
       "required": false
     },
     "External-Description": {
       "required": false
     },
-    "External-Identifier": {
-      "required": false
-    },
-    "Internal-Sender-Description": {
-      "required": false
-    },
-    "Internal-Sender-Identifier": {
-      "required": false
-    },
-    "Source-Organization-Address": {
+    "Organization-Address": {
       "required": false
     },
     "Payload-Oxum": {
@@ -78,7 +64,7 @@
     "Source-Organization": {
       "required": true
     },
-    "Payload-Identifier": {
+    "External-Identifier": {
       "required": false
     }
   },
