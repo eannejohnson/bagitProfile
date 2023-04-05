@@ -4,7 +4,6 @@
     "1.0"
   ],
   "Accept-Serialization": [
-    "application/tar",
     "application/zip"
   ],
   "Allow-Fetch.txt": false,
